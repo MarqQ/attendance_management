@@ -11,9 +11,9 @@ def api_overview(request):
     api_urls = {
         'List': '/student-list/',
         'Detail View': '/student-detail/<str:pk>',
-        'Create': '/task-create/',
-        'Update': '/task-update/<str:pk>/',
-        'Delete': '/task-delete/<str:pk>/',
+        'Create': '/student-create/',
+        'Update': '/student-update/<str:pk>/',
+        'Delete': '/student-delete/<str:pk>/',
     }
     return Response(api_urls)
 
