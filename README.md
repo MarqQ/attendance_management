@@ -1,22 +1,32 @@
 # attendance_management
 
 *****
-About react project:
+About React project:
 
-* npx react-gitignore (if want to update react gitignore)
+The React project is in the `attendance_management/frontend` directory
+
+To build this project, access `frontend` directory and run:
+
+```
+
+npx react-gitignore (if want to update react gitignore)
+npm run build
+
+```
+
 *****
 
-All settings and routes are already configurated
+All settings and routes are already configured
 
 To run Django/DRF settings:
 
 * Clone this repository.
 * Start a venv with Python 3.
 * Activate virtualenv.
-* Run requirements.txt.
+* Run `requirements.txt.`
 * Run migrations and migrate.
 
-LINUX
+Instructions for LINUX environment:
 ```
 git clone
 python3 -m venv .venv OR py -m venv .venv
@@ -27,7 +37,7 @@ python manage.py makemigrations
 python manage.py runserver
 ```
 
-WINDOWS
+Instructions for WINDOWS environment:
 ```
 git clone
 python3 -m venv .venv OR py -m venv .venv
@@ -36,3 +46,4 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py makemigrations
 python manage.py runserver
+```
