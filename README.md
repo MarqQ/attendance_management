@@ -1,7 +1,12 @@
 # attendance_management
 
+Main Branch: Django project
+Master Branch: React project
+
 *****
 About React project:
+
+
 
 The React project is in the `attendance_management/frontend` directory
 
